@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/92c95d17-c14a-472c-aab1-80b5ecc9de30
 - CSS3
 
 ## Project Structure
-`
+```text
 MovieFlix/
 │
 ├── index.html
@@ -27,7 +27,7 @@ MovieFlix/
 │   └── footer.css
 │
 └── images/
-`
+```
 ## Learning Goals
 This project was built to practice:
 - Flexbox layouts
