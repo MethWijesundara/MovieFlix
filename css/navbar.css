@@ -1,0 +1,69 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Navbar */
+.navbar{
+    position:absolute;
+    top:0;
+    width:100%;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:20px 50px;
+
+    background:black;
+    color:white;
+
+    z-index:10;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s ease;
+}
+
+.navbar a:hover{
+    color:red;
+}
+
+ul{
+    list-style:none;
+
+    display:flex;
+    gap:20px;
+
+    align-items:center;
+    justify-content:center;
+
+}
+
+ul:hover{
+    color:red;
+}
+
+.signInBtn{
+    padding:10px 20px;
+    border:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:5px;
+    background:red;
+    color:white;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+.signInBtn:hover{
+    background:darkred;
+    transform:scale(1.05);
+}
